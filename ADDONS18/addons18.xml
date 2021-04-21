@@ -106,16 +106,4 @@
 
 
 
-<addon id="skin.installEMAD" version="18.1.0.1" name="Install EMAD" provider-name="jingai, Stoli, Amra, MacGyver, EMAD">
-	<requires>
-		<import addon="xbmc.gui" version="5.14.0"/>
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-		<res width="1280" height="720" aspect="16:9" default="true" folder="xml"/>
-	</extension>
-	<extension point="xbmc.python.pluginsource" library="INSTALL.py" />
-</addon>
-
-
-
 </addons>
