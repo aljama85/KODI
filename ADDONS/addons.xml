@@ -24,7 +24,7 @@
 
 
 
-<addon id="repository.emad" name="EMAD Repository" version="6.5.0" provider-name="EMAD MAHDI">
+<addon id="repository.emad" name="EMAD Repository" version="6.5.1" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -36,7 +36,7 @@
 
 
 
-<addon id="repository.emad.github" name="EMAD GitHub Repository" version="6.5.0" provider-name="EMAD MAHDI">
+<addon id="repository.emad.github" name="EMAD GitHub Repository" version="6.5.1" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD GitHub Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -48,7 +48,7 @@
 
 
 
-<addon id="repository.emad.gitea" name="EMAD Gitea Repository" version="6.5.0" provider-name="EMAD MAHDI">
+<addon id="repository.emad.gitea" name="EMAD Gitea Repository" version="6.5.1" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Gitea Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -60,7 +60,7 @@
 
 
 
-<addon id="repository.emad.codeberg" name="EMAD Codeberg Repository" version="6.5.0" provider-name="EMAD MAHDI">
+<addon id="repository.emad.codeberg" name="EMAD Codeberg Repository" version="6.5.1" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Codeberg Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -72,7 +72,7 @@
 
 
 
-<addon id="repository.emad.gitee" name="EMAD Gitee Repository" version="6.5.0" provider-name="EMAD MAHDI">
+<addon id="repository.emad.gitee" name="EMAD Gitee Repository" version="6.5.1" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Gitee Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -84,7 +84,7 @@
 
 
 
-<addon id="repository.emad.others" name="EMAD Others Repository" version="6.5.0" provider-name="EMAD MAHDI">
+<addon id="repository.emad.others" name="EMAD Others Repository" version="6.5.1" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Others Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
