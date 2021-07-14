@@ -1,0 +1,35 @@
+
+v18.3.0.0	2021-04-22
+Modified repositories addons
+
+
+v18.2.0.1	2021-04-04
+Modified three buttons dialog
+Modified notification dialog
+Modified home dialog
+Modified install script
+
+
+v18.2.0.1	2021-03-06
+Fixed reading addon version
+
+
+v18.2.0.0	2021-03-03
+Rewrote installing script
+Added three buttons confirm progress bar dialog
+Added double check and double install
+Added continues repositories update
+Added three empty addons to be automatically updated
+Modified icons of Arabic videos & repository
+Minor fixes and improvements
+
+
+v18.1.0.1	2020-12-06
+Fixed sending analytics events
+Added disabling of install skin
+Added install of Arabic interface
+Minor fixes and improvements
+
+
+v18.1.0.0	2020-11-02
+Initial release

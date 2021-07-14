@@ -1,0 +1,9 @@
+<addon id="repository.emad.others" name="EMAD Others Repository" version="6.5.1" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD Others Repository">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addons from other developers</summary>
+		<description lang="en">Download and install addons from other developers</description>
+		<platform>all</platform>
+	</extension>
+</addon>

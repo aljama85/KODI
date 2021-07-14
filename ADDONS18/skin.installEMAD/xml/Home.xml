@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+
+	<onload condition="!Skin.HasSetting(NotFirstRun)">RunPlugin(plugin://skin.installEMAD?mode=1)</onload>
+	<onload condition="!Skin.HasSetting(NotFirstRun)">Skin.SetBool(NotFirstRun)</onload>
+
+	<AAAAonload>UpdateAddonRepos</AAAAonload>
+	<AAAAonload>Notification(يرجى الانتظار والصبر,بدأ كودي يجلب الملفات)</AAAAonload>
+	<AAAAonload>ActivateWindow(busydialog)</AAAAonload>
+	<AAAAonload>RunScript(special://skin/MAIN.py)</AAAAonload>
+	<onload>RunPlugin(plugin://skin.installEMAD)</onload>
+	<controls>
+		<include>Global_Background</include>
+		<include>Global_Time</include>
+		<control type="label" id="9001">
+			<right>30</right>
+			<top>0</top>
+			<height>350</height>
+			<width>1250</width>
+			<align>right</align>
+			<aligny>top</aligny>
+			<font>METF_HomeMenu</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<wrapmultiline>true</wrapmultiline>
+			<label></label>
+		</control>
+		<control type="label" id="9002">
+			<left>215</left>
+			<top>0</top>
+			<height>350</height>
+			<width>1050</width>
+			<align>left</align>
+			<aligny>top</aligny>
+			<font>METF_HomeMenu</font>
+			<textcolor>FFFFFFFF</textcolor>
+			<wrapmultiline>true</wrapmultiline>
+			<label></label>
+		</control>
+		<control type="label" id="9003">
+			<posx>985</posx>
+			<posy>305</posy>
+			<height>300</height>
+			<width>330</width>
+			<align>center</align>
+			<aligny>top</aligny>
+			<font>METF_TitleTextLarge</font>
+			<textcolor>FFFFFF00</textcolor>
+			<wrapmultiline>true</wrapmultiline>
+		</control>
+		<control type="label" id="9004">
+			<posx>985</posx>
+			<posy>430</posy>
+			<height>120</height>
+			<width>330</width>
+			<align>center</align>
+			<aligny>top</aligny>
+			<font>METF_Temp</font>
+			<textcolor>FFFFFF00</textcolor>
+			<wrapmultiline>true</wrapmultiline>
+		</control>
+		<control type="label" id="9005">
+			<posx>250</posx>
+			<posy>575</posy>
+			<height>40</height>
+			<width>700</width>
+			<align>center</align>
+			<aligny>top</aligny>
+			<font>METF_Temp</font>
+			<textcolor>FFFFFF00</textcolor>
+			<wrapmultiline>true</wrapmultiline>
+		</control>
+		<control type="image">
+			<description>arabic videos image</description>
+			<posx>30</posx>
+			<posy>25</posy>
+			<width>150</width>
+			<height>150</height>
+			<texture>install/arabic.png</texture>
+		</control>
+		<control type="image">
+			<description>repository image</description>
+			<posx>30</posx>
+			<posy>200</posy>
+			<width>150</width>
+			<height>150</height>
+			<texture>install/repo.png</texture>
+		</control>
+		<control type="image">
+			<description>metropolis image</description>
+			<posx>30</posx>
+			<posy>375</posy>
+			<width>150</width>
+			<height>150</height>
+			<texture>install/skin.png</texture>
+		</control>
+		<control type="image">
+			<description>kodi image</description>
+			<posx>30</posx>
+			<posy>545</posy>
+			<width>150</width>
+			<height>150</height>
+			<texture>install/kodi.png</texture>
+		</control>
+	</controls>
+</window>
