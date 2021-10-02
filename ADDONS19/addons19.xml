@@ -3,10 +3,9 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="19.0.0.5" provider-name="EMAD MAHDI">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="19.0.0.6.emad" provider-name="EMAD MAHDI">
 	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.resolveurl"/>
+		<!-- <import addon="xbmc.python" optional="true"/> -->
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="arabicvideos\__init__.py">
 		<provides>video</provides>
@@ -21,9 +20,9 @@
 
 
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="19.5.1.43" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.43.emad" provider-name="gujal">
     <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
+		<!-- <import addon="xbmc.python" optional="true"/> -->
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.python.pluginsource" library="lib/default.py"/>
@@ -49,10 +48,10 @@
 
 <addon id="script.module.backports.functools_lru_cache"
        name="backports.functools_lru_cache"
-       version="1.6.4b"
+       version="1.6.4.emad"
        provider-name="Jason R. Coombs">
   <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
+		<!-- <import addon="xbmc.python" optional="true"/> -->
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
