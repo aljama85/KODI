@@ -6,11 +6,6 @@
 <addon id="script.module.resolveurl" name="ResolveURL" version="19.5.1.43" provider-name="gujal">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.six"/>
-        <import addon="script.module.kodi-six"/>
-        <import addon="plugin.video.youtube" optional="true"/>
-        <import addon="script.module.python.twitch" optional="true"/>
-        <import addon="plugin.googledrive" optional="true"/>
     </requires>
     <extension point="xbmc.python.module" library="lib"/>
     <extension point="xbmc.python.pluginsource" library="lib/default.py"/>
