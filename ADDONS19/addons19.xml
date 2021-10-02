@@ -1,14 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
 <addons>
 
 
 
 <addon id="script.module.resolveurl" name="ResolveURL" version="5.1.43b" provider-name="gujal">
     <requires>
-        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
         <import addon="plugin.video.youtube" optional="true"/>
@@ -33,6 +30,27 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
+</addon>
+
+
+
+<addon id="script.module.backports.functools_lru_cache"
+       name="backports.functools_lru_cache"
+       version="1.6.4b"
+       provider-name="Jason R. Coombs">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Backport of functools.lru_cache from Python 3.3</summary>
+    <description lang="en">Packed for Kodi from https://github.com/jaraco/backports.functools_lru_cache</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <website>https://github.com/jaraco/backports.functools_lru_cache</website>
+    <source>https://github.com/Razzeee/script.module.backports.functools_lru_cache</source>
+  </extension>
 </addon>
 
 
