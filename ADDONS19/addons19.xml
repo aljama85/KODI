@@ -3,9 +3,10 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="19.0.0.6.emad" provider-name="EMAD MAHDI">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="19.0.0.7.emad" provider-name="EMAD MAHDI">
 	<requires>
 		<!-- <import addon="xbmc.python" optional="true"/> -->
+		<import addon="script.module.resolveurl" optional="false"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="arabicvideos\__init__.py">
 		<provides>video</provides>
