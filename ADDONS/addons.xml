@@ -266,9 +266,9 @@
 
 
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.43a" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.44" provider-name="gujal">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
+        <!-- <import addon="xbmc.python" version="2.1.0"/> -->
         <import addon="script.module.six"/>
         <import addon="script.module.kodi-six"/>
         <import addon="plugin.video.youtube" optional="true"/>
@@ -299,10 +299,10 @@
 
 <addon id="script.module.backports.functools_lru_cache"
        name="backports.functools_lru_cache"
-       version="1.6.4a"
+       version="1.6.4"
        provider-name="Jason R. Coombs">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <!-- <import addon="xbmc.python" version="2.1.0"/> -->
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
