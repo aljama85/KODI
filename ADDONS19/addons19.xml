@@ -3,10 +3,10 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="19.0.0.7.emad" provider-name="EMAD MAHDI">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="19.0.0.8.emad" provider-name="EMAD MAHDI">
 	<requires>
-		<!-- <import addon="xbmc.python" optional="true"/> -->
-		<import addon="script.module.resolveurl" optional="false"/>
+		<!-- <import addon="xbmc.python" version="3.0.0"/> -->
+		<import addon="script.module.resolveurl" version="5.1.00"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="arabicvideos\__init__.py">
 		<provides>video</provides>
@@ -21,12 +21,17 @@
 
 
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.43.emad" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.44" provider-name="gujal">
     <requires>
-		<!-- <import addon="xbmc.python" optional="true"/> -->
+        <!-- <import addon="xbmc.python" version="3.0.0" /> -->
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="plugin.googledrive" optional="true" />
     </requires>
-    <extension point="xbmc.python.module" library="lib"/>
-    <extension point="xbmc.python.pluginsource" library="lib/default.py"/>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
