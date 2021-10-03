@@ -3,24 +3,6 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="19.0.0.8.emad" provider-name="EMAD MAHDI">
-	<requires>
-		<!-- <import addon="xbmc.python" version="3.0.0"/> -->
-		<import addon="script.module.resolveurl" version="5.1.00"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="arabicvideos\__init__.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en">Watch from a huge selection of Arabic Videos ...</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on. ArabicVideos doesn’t host any content on it own server and just linking to or embedding content that was uploaded to popular Online Video hosting sites like dailymotion.com, Youtube.com, Google Drive, ZShare.net, cloudy, netu.tv and such sites. All trademarks, Videos, trade names, service marks, copyrighted work, logos referenced herein belong to their respective owners/companies. ArabicVideos is not responsible for what other people upload to 3rd party sites. We urge all copyright owners, to recognize that the links contained within this site are located somewhere else on the web or video embedded are from other various site like included above!. If you have any legal issues please contact appropriate media file owners/hosters.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-
-
 </addons>
 
 
