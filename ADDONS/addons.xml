@@ -42,7 +42,7 @@
 	<requires>
 		<!-- <import addon="xbmc.python" version="2.1.0"/> -->
 		<import addon="script.module.requests" optional="false"/>
-		<import addon="script.module.resolveurl" optional="false"/>
+		<import addon="script.module.resolveurl" version="5.1.0" optional="false"/>
 		<import addon="script.module.youtube.dl" optional="false"/>
 		<import addon="inputstream.rtmp" optional="true"/>
 		<import addon="inputstream.adaptive" optional="true"/>
