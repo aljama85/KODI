@@ -3,11 +3,11 @@
 
 
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.44a" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.44+matrix.1" provider-name="gujal">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.six"/>
-		<import addon="script.module.kodi-six"/>
+		<import addon="script.module.six" optional="true"/>
+		<import addon="script.module.kodi-six" optional="true"/>
 		<import addon="plugin.video.youtube" optional="true"/>
 		<import addon="script.module.python.twitch" optional="true"/>
 		<import addon="plugin.googledrive" optional="true"/>
@@ -35,8 +35,6 @@
 		<path>script.module.resolveurl/script.module.resolveurl-5.1.44a.zip</path>
 	</extension>
 </addon>
-
-
 
 
 
