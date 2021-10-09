@@ -1,9 +1,0 @@
-<addon id="repository.emad.gitee" name="EMAD Gitee Repository" version="6.5.1" provider-name="EMAD MAHDI">
-	<extension point="xbmc.addon.repository" name="EMAD Gitee Repository">
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install addons from EMAD</summary>
-		<description lang="en">Download and install addons from EMAD</description>
-		<platform>all</platform>
-	</extension>
-</addon>
