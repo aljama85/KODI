@@ -24,7 +24,7 @@
 
 
 
-<addon id="repository.emad" name="EMAD Repository" version="2021.10.10a" provider-name="EMAD MAHDI">
+<addon id="repository.emad" name="EMAD Repository" version="2021.10.10b" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -36,7 +36,7 @@
 
 
 
-<addon id="repository.emad.github" name="EMAD GitHub Repository" version="6.6.0" provider-name="EMAD MAHDI">
+<AAAaddon id="repository.emad.github" name="EMAD GitHub Repository" version="6.6.0" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD GitHub Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -44,11 +44,11 @@
 		<description lang="en">Download and install addons from EMAD</description>
 		<platform>all</platform>
 	</extension>
-</addon>
+</AAAaddon>
 
 
 
-<addon id="repository.emad.gitea" name="EMAD Gitea Repository" version="6.6.0" provider-name="EMAD MAHDI">
+<AAAaddon id="repository.emad.gitea" name="EMAD Gitea Repository" version="6.6.0" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Gitea Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -56,11 +56,11 @@
 		<description lang="en">Download and install addons from EMAD</description>
 		<platform>all</platform>
 	</extension>
-</addon>
+</AAAaddon>
 
 
 
-<addon id="repository.emad.codeberg" name="EMAD Codeberg Repository" version="6.6.0" provider-name="EMAD MAHDI">
+<AAAaddon id="repository.emad.codeberg" name="EMAD Codeberg Repository" version="6.6.0" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Codeberg Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -68,11 +68,11 @@
 		<description lang="en">Download and install addons from EMAD</description>
 		<platform>all</platform>
 	</extension>
-</addon>
+</AAAaddon>
 
 
 
-<addon id="repository.emad.gitee" name="EMAD Gitee Repository" version="6.6.0" provider-name="EMAD MAHDI">
+<AAAaddon id="repository.emad.gitee" name="EMAD Gitee Repository" version="6.6.0" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Gitee Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -80,11 +80,11 @@
 		<description lang="en">Download and install addons from EMAD</description>
 		<platform>all</platform>
 	</extension>
-</addon>
+</AAAaddon>
 
 
 
-<addon id="repository.emad.others" name="EMAD Others Repository" version="6.6.0" provider-name="EMAD MAHDI">
+<AAAaddon id="repository.emad.others" name="EMAD Others Repository" version="6.6.0" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.repository" name="EMAD Others Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -92,11 +92,11 @@
 		<description lang="en">Download and install addons from other developers</description>
 		<platform>all</platform>
 	</extension>
-</addon>
+</AAAaddon>
 
 
 
-<addon id="repository.emad.pythonanywhere" name="EMAD PythonAnywhere Repository" version="6.6.0" provider-name="EMAD MAHDI">
+<AAAaddon id="repository.emad.pythonanywhere" name="EMAD PythonAnywhere Repository" version="6.6.0" provider-name="EMAD MAHDI">
 	<extension point="xbmc.addon.pythonanywhere" name="EMAD PythonAnywhere Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -104,7 +104,7 @@
 		<description lang="en">Download and install addons from EMAD</description>
 		<platform>all</platform>
 	</extension>
-</addon>
+</AAAaddon>
 
 
 
