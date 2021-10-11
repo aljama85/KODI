@@ -4,7 +4,7 @@
 
 <addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="8.5.2" provider-name="EMAD MAHDI">
 	<requires>
-		<!-- <AAAimport addon="xbmc.python" version="2.1.0"/> -->
+		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.requests" optional="false"/>
 		<import addon="script.module.resolveurl" optional="false"/>
 		<import addon="script.module.youtube.dl" optional="false"/>
