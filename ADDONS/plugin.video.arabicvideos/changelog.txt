@@ -1,0 +1,1080 @@
+﻿
+v8.5.2	2021-06-15
+Added showing version message when opening main menu
+Fixed PANET series links
+Disabled deleting old repositories gitee & others
+
+
+v8.5.1	2021-05-28
+Fixed YOUTUBE playing mpd files
+Fixed YOUTUBE playing m3u8 live channels
+Fixed SHOOFMAX not working m3u8
+Fixed BOKRA main menu
+Fixed ALARAB not playing embed links
+Changed BOKRA website
+Disabled m3u8 extractor error messages
+Removed FAJERSHOW extra categories
+Splitted saving IPTV files
+Added live channels blocking for some users
+Added version reporting
+Decreased cache period for update check
+Minor fixes and improvements
+
+
+v8.5.0	2021-05-07
+Added IPTV items/groups/search pagination
+Added IPTV zipped groups lists
+Added database read/write full tables
+Added database for IPTV files
+Fixed ALARAB Ramadan 2021 links
+Fixed sorting IPTV groups
+Fixed IPTV search speed
+Fixed IPTV items listing speed
+Fixed YOUTUBE encoded streams
+Excluded resolverurl from obfuscation
+Modified IPTV search & lists
+Modified IPTV create streams
+Optimized kodi items for obfuscation
+Minor fixes and improvements
+
+
+v8.4.1	2021-05-01
+Fixed LASTVIDEOS menus
+Fixed CIMANOW main menu
+Fixed MYCIMA videos play
+Fixed adding to FAVOURITES
+Fixed IPTV slow lines reading
+Removed FAJERSHOW extra play selection
+Modified reading IPTV lines
+Added obfuscation exclude file
+Minor fixes and improvements
+
+
+v8.4.0	2021-04-29
+Added cache for IPTV sections list
+Fixed IPTV slow streams processing
+Fixed YOUTUBE opy titles problem
+Fixed generic infos messages
+Fixed IPTV slow search
+Modified IPTV streams files
+Modified IPTV search
+Allowed detection of privs messages
+Minor fixes and improvements
+
+
+v8.3.1	2021-04-24
+Removed py files
+
+
+v8.3.0	2021-04-24
+Added deleting bad sql3 rows
+Added a message before creating list of all sections
+Added deleting of emad gitee and emad others repositories
+Added new repositories gitea & codeberg
+Added delay for generic messages
+Added python obfuscation
+Added colors to main menu for need update and new messages
+Fixed slow IPTV streams create
+Fixed YOUTUBE trending submenu
+Removed old repositories gitee & others
+Moved IPTV files to disk
+Minor fixes and improvements
+
+
+v8.2.0	2021-04-18
+Removed py files
+Minor fixes and improvements
+
+
+v8.1.2	2021-04-16
+Added showing all generic messages
+Fixed generic infos default answer
+Minor fixes and improvements
+
+
+v8.1.1	2021-04-16
+Fixed a bug for installation of new release
+Fixed highest addon version report
+
+
+v8.1.0	2021-04-16
+Added EGYBEST site
+Added cache to sites sections
+Added 3 buttons custom confirm dialog
+Added 60 minutes max cache
+Added devices count report
+Added automatic versions check
+Added RESOLVEURL error handling
+Added message for KODI 19 incompatibility
+Added BOKRA play of rtmp links
+Added image to series episodes
+Added EGYBEST new player
+Added EGYBEST filters
+Added EGYBEST sub-menus
+Added FASELHD player
+Added MOVS4U new embed video link
+Added MAIN daily activities
+Added sending empty emails
+Added ARBLIONZ trending movies/series
+Added islamic dialog
+Added CIMANOW new design
+Modified MOSHAHDA resolver
+Modified main menu
+Modified BOKRA main menu
+Modified blocked menus
+Modified AKWAM main menu
+Modified the message of private/public video servers
+Modified cache explanation
+Modified IPTV account check
+Modified IPTV cache time
+Modified dns/proxy/cache dialogs & functions
+Modified favourites context menu
+Modified addon icon & thumb files
+Modified ARBLIONZ main menu
+Modified some functions for KODI 19 compatibility
+Modified IPTV tables
+Modified SQL3 compression
+Fixed updating/installing addons
+Fixed IPTV files deletion
+Fixed ARABSEED main menu
+Fixed ARABSEED poster images
+Fixed ARABSEED titles
+Fixed ALARAB player
+Fixed YOUTUBE android useragent
+Fixed MYCIMA main menu
+Fixed MYCIMA resolver
+Fixed MYCIMA episodes series name
+Fixed FAJERSHOW resolver
+Fixed OPENURL showdialog
+Fixed deleting cache folder downloaded videos
+Fixed detection of new version
+Fixed ARBLIONZ menus,trending & pagination
+Fixed clientid unknown hardware
+Fixed empty DNS situation
+Fixed upbbom resolver
+Fixed playing quoted urls
+Changed gitee timeout
+Renamed sections cache table name
+Renamed some LIBRARY functions
+Renamed some sql3 tables
+Renamed MOVIZLAND resolver to MOSHAHDA
+Removed AKWAM player blocking message
+Removed ARBLIONZ site
+Moved some functions to LIBRARY
+Moved some global imports to local functions
+Increased YOUTUBE cache time
+Decreased MYCIMA resolver cache
+Minor fixes and improvements
+
+
+v8.0.4	2021-02-11
+Added hostname to m3u8 extractor
+Added cache enable/disable
+Fixed list of sections
+Fixed colour of new messages
+Fixed ARABSEED empty play/download links
+Fixed DAILYMOTION unicode names
+Fixed very long log lines
+Fixed reading useragents file
+Updated useragents file
+Changed ARBLIONZ hostname
+Increased AKWAM timeout
+Modified cache deleting messages
+Decreased YOUTUBE cache time
+Minor fixes and improvements
+
+
+v8.0.3	2021-02-07
+Fixed ARBLIONZ url
+Fixed analytic events for pythonanywhere
+Modified analytic events proxy/dns
+Modified OPENURL logging
+Changed ARBLIONZ hostname
+Minor fixes and improvements
+
+
+v8.0.2	2021-02-06
+Fixed create/check cache folder
+Minor fixes and improvements
+
+
+v8.0.1	2021-02-06
+Added addon files update
+Fixed YOUTUBE lists & next page
+Changed "settings" to be global object
+Increase OPENURL timeout to 7 seconds
+Removed AKWAM main menu blocking message
+Disabled sound of all notification dialogs
+Minor fixes and improvements
+
+
+v8.0.0	2021-02-03
+Added MOVS4U site
+Added FAJERSHOW site
+Added DAILYMOTION site
+Added ARABSEED submenus
+Added ARABSEED new movies & episodes
+Added proxy/dns to analytics events
+Added location to send messages
+Added MYCIMA series name to episodes & seasons lists
+Added and modified AKWAM blocked message
+Added hostname to ARABSEED play links
+Added ARABSEED series name to episodes lists
+Added ARBLIONZ filters
+Fixed ARBLIONZ resolver
+Fixed ARABSEED filters
+Fixed PROXY/DNS ASK status
+Fixed and modified MYCIMA filters
+Fixed YOUTUBE empty search results
+Fixed IFILM Arabic main menu
+Fixed IFILM watch server ip
+Fixed ALKAWTHAR search
+Fixed EXTERNAL_RESOLVER_3
+Fixed M3U8 extractor
+Enabled quality select in external resolvers
+Modified logging of multi lines errors/notices
+Modified adult rating
+Modified main & sites menus
+Modified YOUTUBE owner listing
+Changed default PROXY/DNS to AUTO
+Changed DNS to AUTO instead of ALWAYS
+Changed network fix to try PROXY then DNS
+Removed old OPENURL
+Removed uptostream/uptobox resolver
+Minor fixes and improvements
+
+
+v7.8.0	2021-01-15
+Added ARABSEED new design
+Added 'ALL' to BOKRA sub-menus
+Added reCAPTCHA as blocking error
+Added reuse of last successful proxy
+Added total users to analytics report
+Fixed FAVOURITES listing and moving
+Fixed enabling EMAD repositories
+Fixed SITES_MODES in MAIN
+Fixed proxy success exit
+Fixed threads success for openurl functions
+Fixed openurl DNS fixing
+Renamed ARABLIONZ to ARBLIONZ
+Changed ARBLIONZ hostname
+Automated installing of MPD & RTMP inputstreams
+Limited asking for proxy/dns to once only
+Modified https proxies list
+Disabled showing IPTV check account network errors
+Used CloudFlare DNS as primary DNS
+Cleaned RESOLVERS servers name
+Minor fixes and improvements
+
+
+v7.7.0	2021-01-01
+Added BOKRA site
+Fixed messages sequence
+Fixed YOUTUBE playing cancel
+Fixed FAVOURITES watched status
+Fixed RESOLVERS return
+Fixed YOUTUBE live status
+Cancelled ALKAWTHAR live
+Modified 2021 icon & thumb images
+
+
+v7.6.0	2020-12-24
+Added new site MYCIMA
+Added back AKOAMCAM site
+Added users privilege control
+Fixed CIMANOW resolver
+Fixed ALKAWTHAR search
+Fixed DIALOG_TEXTVIEWER_FULLSCREEN
+Fixed downloading webm files
+Modified CIMANOW play/download links
+Moved YOUTUBE resolver to external resolvers
+Minor fixes and improvements
+
+
+v7.5.2	2020-12-12
+Fixed a bug in YOUTUBE
+Removed AKOAMCAM site
+
+
+v7.5.1	2020-12-12
+Added video owner to YOUTUBE videos & playlists
+Added back AKWAM watch links
+Added deleting user settings file
+Added touchscreen scrolling to TEXTVIEWER_FULLSCREEN 
+Added multi-line errors logging
+Added default User-Agent to IPTV
+Added error handling for IPTV account check
+Fixed wrong status of PROXY & DNS
+Fixed IPTV titles splitting
+Modified PROXY & DNS status changing functions
+Modified messages to send same message to group of users
+Moved PROXY & DNS default settings from MAIN to OPENURL
+Removed old ALMAAREF site
+Removed context for non EPG IPTV channels
+Minor fixes and improvements
+
+
+v7.5.0	2020-11-28
+Added new site AKOAMCAM
+Added errors handling and reporting
+Added DIALOG_BUSY to MAIN
+Added GITEE as a backup for GITHUB
+Added numbers to Analytics report
+Added PROXIES & DNS to all network problems
+Added FOGETRESULTS to all FILTERS_MENU sites
+Added new log messages for network connections
+Added message about KODI 19 is not supported
+Added logs and notification for SSL requests
+Fixed requests ConnectionError
+Fixed CIMANOW opening a whole series using episode url
+Fixed AKWAM listing, playing & featured menu
+Fixed errors related to network blocking
+Fixed ARABSEED main menu, listings, user-agent & resolver
+Fixed RESOLVERS search for SERVERS quality
+Fixed KODI version reading
+Fixed testing IPTV links
+Fixed adding bad IPTV links
+Fixed IPTV download time estimation
+Fixed listing of downloaded videos
+Modified DNS_RESOLVER
+Modified main menu
+Modified program exit
+Renamed all Dialog functions
+Renamed all OPENURL functions
+Splitted "EMAD Repository" to 3 repositories
+Rewrote ANALYTICS report client & server
+Removed AKWAM watching links due to google recaptcha
+Updated USERAGENTS file
+Minor fixes and improvements
+
+
+v7.4.1	2020-11-02
+Fixed bug in LIBRARY.MAIN
+
+
+v7.4.0	2020-11-02
+Added automatic proxy servers
+Added MESSAGES section to send messages to users
+Added IPTV videos count
+Added YOUTUBE older page playlists
+Added functions for all kodi dialogs
+Added thumb image
+Added both inputstreams addons as required
+Added the new web address for the new KODIEMAD app to several messages
+Added new screen to show the urls of this addon
+Added ANALYTICS for pythonanywhere server
+Added ANALYTICS for kodi version
+Added version check for the backup repository website
+Added a full screen textviewer dialog with multi fonts and multi directions
+Fixed FAVOURITES search actions which asks for keyboard again
+Fixed FAVOURITES navigation actions
+Fixed random words which is used by random lists
+Fixed log files path
+Fixed DOWNLOAD Arabic Unicode files name
+Fixed DOWNLOAD unavailable file size
+Modified proxy testing
+Modified the delete of IPTV files for new installation and upgrades
+Modified kodi folders & paths
+Modified icon image
+Updated User-Agents file
+Updated YOUTUBE to process page data when it comes as a variable
+Updated YUOTUBE trending menu hidden list
+Disabled fanart image
+Changed videos type from none to tvshows
+Decreased messages for upgrades & new installs
+Removed EGYBESTVIP website
+Minor fixes & improvements
+
+
+v7.3.0	2020-10-03
+Added new search support function for all sites
+Added conditional proxy for pythonanywhere
+Added time remaining for DOWNLOAD & IPTV
+Added IPTV empty live group
+Added IPTV m3u file in cache-folder
+Added customized text-viewer screen for log-file
+Added reading of old-log-file
+Rewrote reading of log-file
+Fixed IPTV empty country/language/title
+Fixed AKOAM main menu
+Fixed AKWAM main menu
+Fixed reporting to analytics
+Minor fixes & improvements
+
+
+v7.2.2	2020-09-27
+Added creation of lastmenufile when missing
+
+
+v7.2.1	2020-09-27
+Added IPTV categories to VOD_ORIGINAL
+Added cache to SHIAVOICE menu for latest items
+Added diagnosis logs for videos downloading process
+Added sorting of downloaded files
+Added reading of log-file
+Modified the list of all sections
+Modified RANDOM menus
+Modified IFILM series playing
+Updated AKWAM main menu
+Rewrote FORGETRESULTS & REMEMBERRESULTS
+Fixed IPTV create streams
+Fixed YOUTUBE searching within channels
+Cancelled BUSY_DIALOG from all files
+Minor fixes & improvements
+
+
+v7.2.0	2020-09-14
+Added DOWNLOAD to download video files
+Added YOUTUBE channel browse menu
+Added search within YOUTUBE channel/user
+Added 30 more YOUTUBE channels
+Added 7 more YOUTUBE categories
+Added cache for YOUTUBE user-agent
+Added AKWAM recent videos
+Added AKWAM new main menu
+Added menu item for change-log file
+Cancelled file MAIN
+Removed AKWAM 'programs' & 'games'
+Updated CIMANOW video playing
+Changed SHAHID4U website address
+Increased the last items menus to 50 items
+Consolidate YOUTUBE functions to one function
+Coloured change-log contents
+Fixed YOUTUBE pagination
+Fixed AKOAM pagination
+Fixed sending log-file
+Fixed the update of RANDOM & SEARCH context menus
+Fixed the update of GLOBAL_SEARCH context menus
+Modified PLAY_VIDEO
+Minor fixes & improvements
+
+
+v7.1.0	2020-08-28
+Added new website SHIAVOICE
+Added new website KARBALATV
+Added new website CIMANOW
+Added new 330 websites using my YOUTUBE_CHANNELS
+Added new 46 menus for my YOUTUBE_CHANNELS
+Added 5th FAVOURITES menu
+Added change-log dialog for new installations/upgrades
+Minor fixes & improvements
+
+
+v7.0.4	2020-08-22
+Minimized PLAY_VIDEO code for live IPTV
+Fixed OPENURL Arabic payload
+Fixed HELAL video items
+Fixed ARBLIONZ main menu
+Changed HELAL website name
+Updated YOUTUBE cipher file
+Changed RANDOM_USERAGENT source
+Minor fixes & improvements
+
+
+v7.0.3	2020-08-13
+Added IPTV account check
+Skipped bad IPTV streams
+Fixed AKOAM resolver
+
+
+v7.0.2	2020-08-08
+Fixed IPTV download bug
+
+
+v7.0.1	2020-08-08
+Changed YOUTUBE to browse using Arabic language
+Fixed some YOUTUBE channel details
+Fixed IPTV missing channels from LIVE_GROUPED
+Added progress dialog for IPTV files download
+
+
+v7.0.0	2020-08-05
+Enhanced searching IPTV 
+Added sort for servers in RESOLVERS
+Fixed LIBRARY rating check
+Fixed SHAHID4U download links
+Matched the player of SHAHID4U,ARABSEED & ARBLIONZ
+Fixed YOUTUBE "client.version"
+Added YOUTUBE trending
+Added YOUTUBE new channel style
+Added YOUTUBE "recommended"
+Added YOUTUBE new paging
+Enhanced YOUTUBE channel details
+Moved MAIN function to LIBRARY file
+Forced compilation of MAIN function
+Recovered old PANET search
+Fixed HELAL search
+Added a fix for servers returning wrong POST redirects
+
+
+v6.9.1	2020-07-14
+Filtered EPG channels
+Added User-Agent to IPTV
+Added random useragents from file
+Added checking inputstream addons for new installs
+Added checking EMAD Repository for new installs
+Added creating IPTV streams for new installs
+Added checking HTTPS for new installs
+Added settings of inputstream.adaptive
+Added settings of kodi interface
+Minor fixes & improvements
+
+
+v6.9.0	2020-07-07
+Added deleting of whole favourite menus
+Added install of both inputstreams addons
+Added archived IPTV live channels
+Added full & short EPG for IPTV live channels
+Fixed REQUESTS error reporting
+Fixed YOUTUBE search filters
+Added random user-agent
+Automated getting new IPTV files if was used before
+Minor fixes & improvements
+
+
+v6.8.0	2020-06-22
+Modified addon icon
+Fixed moving items of favourite menus
+Fixed Arabic keyboard
+Added forth favourites menu
+Added the new YOUTUBE
+Fixed AKWAM player
+Added more IPTV grouping menus
+Rewrote IPTV groups & items
+Minor fixes & improvements
+
+
+v6.7.2	2020-06-09
+Modified some menus
+Fixed adding favourites TV channels
+
+
+v6.7.1	2020-06-09
+Fixed Kodi addons version check
+
+
+v6.7.0	2020-06-09
+Added two new IPTV categorize
+Added PANET live channel
+Added using remote control with Kodi
+Added "EMAD" to addon name
+Added FAVOURITES Menu
+Removed "page" from random results
+Removed menu items sequence from some menus
+Removed utf8 encode from PLAY_VIDEO logging
+Enhanced IPTV search
+Fixed saving last random lists
+Moved AKWAM resolver to RESOLVERS
+Modified addon icon
+Updated HELAL host name
+Minor fixes & improvements
+
+
+v6.6.1	2020-05-28
+Fixed sending log file
+Fixed explaining errors
+Modified random file to support updating random sub-menus
+
+
+v6.6.0	2020-05-27
+Rewrote RANDOM functions
+Separated IPTV to VOD & LIVE
+Added more random menus
+Updated ARABSEED for the new website
+Rewrote kodi menu exit
+Added kodi menu item types
+Added bulk kodi menu items
+Fixed PLAY video types
+Rewrote all last videos functions
+Added a file for last random menus
+Used "requests" instead of "urllib2"
+Fixed sending messages when using Arabic
+Added errors handling for "requests"
+Added "showDialogs" to many functions
+Minor fixes & improvements
+
+
+v6.5.2	2020-05-11
+Increased last videos count
+Added last channels menu
+Used SLQ3 for sections list of IPTV & VOD
+Fixed random functions of random menu
+Minor fixes & improvements
+
+
+v6.5.1	2020-05-05
+Changed filters exit in ARABSEED, ARBLIONZ & SHAHID4U
+Fixed ARBLIONZ url quote problem
+Updated all categories section
+Updated AKOAM forwarding to AKWAM
+Fixed IFILM Arabic problem in some countries
+Added IFILM English to sections list
+Fixed IPTV messages
+Modified some menus
+Enhanced random video section
+Fixed AKWAM search, titles & play
+Fixed play in ARABSEED, ARBLIONZ & SHAHID4U
+Fixed YOUTUBE duration
+Added last videos menu
+Minor fixes & improvements
+
+
+v6.5.0	2020-04-29
+Offered addons "Check for updates"
+Offered install/enable/update of "EMAD Repository"
+Minimized size of LIBRARY file
+Added video categories menu
+Fixed ALARAB slow menus
+Removed HELAL duplicated menu items
+Created RANDOMS & MENUS modules
+Added random videos section
+Added random video search
+Moved all menus to MENUS file
+Moved all websites to separate menu
+Added ANSWERS menu
+Fixed IPTV name categorization
+Fixed ALKAWTHAR live channel
+Fixed some live channels
+Added cache for all IPTV
+Added random iptv section
+Added random iptv search
+Added random LIVETV channels
+Fixed ALKAWTHAR search
+Minor fixes & improvements
+
+
+v6.4.3	2020-04-14
+Modified cache period for ARBLIONZ, ARABSEED & SHAHID4U
+Renamed EGY4BEST to EGYBESTVIP
+Fixed ARABSEED filter
+Added ARABSEED internal resolver
+Added XFILESHARING resolver
+Added resolvers VIDBM, VIDHD & VIDEOBIN
+Added youtube-dl site check
+Offered settings modification for ResolveURL & YOUTUBE-DL
+Minor fixes & improvements
+
+
+v6.4.2	2020-04-11
+Fixed ARBLIONZ download page urls
+Fixed ARBLIONZ resolver
+Fixed ARBLIONZ playing function
+Fixed ARABSEED playing function
+Fixed SHAHID4U playing function
+Minor fixes & improvements
+
+
+v6.4.1	2020-04-10
+Fixed dependency on "requests" addon
+
+
+v6.4.0	2020-04-09
+Added ARABSEED website
+Rewrote ARBLIONZ play, search & filters
+Rewrote SHAHID4U play & search & filters
+Enhanced AKWAM Filters & Categories
+Fixed AKWAM play
+Fixed ARBLIONZ foreign movies menu
+Fixed AKOAM play using AKWAM
+Fixed HELAL age restriction
+Fixed AKOAM pagination
+
+
+v6.3.3	2020-04-03
+Fixed ARBLIONZ seasons url quote
+
+
+v6.3.2	2020-04-03
+Fixed ARBLIONZ url quote
+Fixed EGY4BEST menu
+Banned more adults videos
+Fixed AKWAM playing
+
+
+v6.3.1	2020-04-02
+Added URL's cleaner for RESOLVE
+Forced installing the external resolvers
+Fixed logging errors
+Fixed EGY4BEST server list
+Added BUZZVRL resolver
+Fixed AKOAM internal resolver
+Fixed SHAHID4U internal resolver
+
+
+v6.3.0	2020-03-30
+Added YOUTUBE-DL resolver
+Rewrote RESOLVE function
+
+
+v6.2.3	2020-03-27
+Fixed PLAY_VIDEO urls having spaces
+Fixed AKWAM pagination
+Added menu to LIVETV
+
+
+v6.2.2	2020-03-25
+Fixed AKWAN multiple qualities menu
+Minimized AKWAM categories menu
+
+
+v6.2.1	2020-03-24
+Fixed ARBLIONZ menu
+Fixed AKWAM filter menu
+Added AKWAM categories menu
+Added miscellaneous to AKWAM menu
+
+
+v6.2.0	2020-03-22
+Added AKWAM full filter
+Used RESOLVEURL instead of URLRESOLVER
+
+
+v6.1.0	2020-03-21
+Updated "Contact Us" & "Delete Cache" messages
+Added new AKWAM website
+Added AKOAM adult restriction
+
+
+v6.0.10	2020-03-18
+Added TVLIVE 3rd section
+Disabled EGY4BEST rating check
+
+
+v6.0.9	2020-03-12
+Minor fixes to YOUTUBE & AKOAM
+
+
+v6.0.8	2020-03-05
+Fixed YOUTUBE resolver
+Added one more YOUTUBE cipher
+
+
+v6.0.7	2020-02-19
+Fixed repository installation
+
+
+v6.0.6	2020-02-19
+Fixed creating IPTV files
+
+
+v6.0.5	2020-02-18
+Added kodi skin message
+Allowed IPTV to load the old m3u link
+Cancelled m3u8 extraction for IPTV
+Added automatic install for tvaddons & emad repositories
+
+
+v6.0.4	2020-02-08
+Cancelled threading wait for the report of versions
+Added update IPTV files after addon upgrade
+Fixed AKOAM resolver
+Added more YOUTUBE menu items
+
+
+v6.0.3	2020-02-05
+Fixed IPTV categories
+Fixed AKOAM resolver
+
+
+v6.0.2	2020-01-17
+v6.0.1	2020-01-17
+Cancelled version report threading
+
+
+v6.0.0	2020-01-17
+Updated SERIES4WATCH
+Updated MOVIZLAND resolver
+Updated ALARAB
+Updated PANET
+Rewrote RESOLVABLE function
+Rewrote M3U8_EXTRACTOR
+Rewrote YOUTUBE resolver
+Fixed urllib2 exceptions
+Added EGY4BEST player, search & resolver
+Added IPTV service
+Added new logging function
+Terminated MOVIZLAND
+Terminated HALACIMA
+
+
+v5.8.2	2019-09-10
+Fixed PLAY_LINK logging
+Fixed non-logs email
+Terminated EGYBEST
+Added usage reports
+Added errors traceback to CustomThreads
+Added more diagnosis logs
+Added errors traceback
+Filtered sending logs
+
+
+v5.8.1	2019-08-14
+Fixed EGYBEST headers, resolving & playing
+Added cloudflare blocking errors
+Added unknown errors
+Added logs of resolving menus
+Added contact menu item
+
+
+v5.8.0	2019-08-13
+Added public DNS for requests
+Added SERIES4WATCH resolver
+Added EGYBEST resolver
+Added EGY4BEST playing
+Fixed M3U8 extractor
+Fixed YOUTUBE resolver
+Fixed ARBLIONZ resolving
+
+
+v5.7.3	2019-08-04
+Removed proxies from cached urls
+Added DNS resolving
+Added public DNS for openurl
+Cancelled proxy test
+Fixed m3u8 extractor
+Added messages about blocking
+Fixed openurl codes/errors
+
+
+v5.7.2	2019-07-30
+Added proxies to requests
+Added messages to websites tests
+Added more https proxies
+Fixed GA
+
+
+v5.7.1	2019-07-26
+Fixed checking proxies sort/response time
+
+
+v5.7.0	2019-07-26
+Added original old EGYBEST website
+Added functions and menus to handle/explain errors
+Added highest to YOUTUBE menu
+Added release version in main menu
+Added proxy message in main menu
+Added cache for requests
+Added webproxyto & httpsproxy
+Added all websites testing
+Changed all requests to cached
+Fixed YOUTUBE mpd server
+Fixed SHHID4U,ARBLIONZ & SERIES4WATCH items listing
+
+
+v5.6.0	2019-07-16
+Added ARBLIONZ website
+Added SERIES4WATCH website
+Replaced EGYBEST website with the new egybest
+Added services menu
+Updated the main menu
+Added option to enable mdp & rtmp inputstreams
+Excluded failed urls from caching
+
+
+v5.5.0	2019-07-11
+Disabled ssl certificate verification for videos & pages
+
+
+v5.4.0	2019-07-10
+Added free tv channels
+Added live youtube & m3u8 support
+Fixed sending error logs
+Fixed 4Helal website source
+
+
+v5.3.0	2019-07-05
+Added 'WS2, RL1 & RL2' TV sources
+Disabled TV channels
+Replaced youtube cypher
+Fixed 4helel search
+
+
+v5.2.0	2019-06-17
+Added database webcache to improve performance
+Optimized imports to improve performance
+Added KProxy to bypass https
+
+
+v5.1.0	2019-06-04
+Added playback and resolvers problem detection
+Added access and playback log
+Added full youtube resolver with mpd support
+
+
+v5.0.0	2019-05-27
+Added "Problem Reporting"
+
+
+v4.9.0	2019-05-25
+Major changes to "Resolvers"
+
+
+v4.8.0	2019-05-19
+Added browsing of new website "MOVIZLAND"
+
+
+v4.7.0	2019-05-14
+Added random videos
+
+
+v4.6.0	2019-05-12
+Added addon version check
+Fixed akoam new website name
+
+
+v4.5.0	2019-05-04
+Created full "Youtube" website browser
+
+
+v4.4.0	2019-05-01
+Added new website "Youtube" using youtube plugin
+Added new "WS" TV source
+
+
+v4.3.0	2019-04-28
+Rewrote "Shahid4U" to browse their new website
+Added new menu item for special TV channels
+Added new "YU" TV source
+
+
+v4.2.0	2019-04-25
+Added last request cache for Akoam, Helal, HalaCima, and Shahid4u
+Added new "TA" TV source
+
+
+v4.1.0	2019-04-22
+Changed main menu
+
+
+v4.0.0	2019-04-21
+Added Global Search
+
+
+v3.9.0	2019-03-31
+Added initials to all menus
+
+
+v3.8.0	2019-01-08
+Added NT & PL Tv sources
+
+
+v3.7.0	2018-12-25
+Added HD & SD Tv sources
+
+
+v3.6.0	2018-11-15
+Changed users ID's
+Changed "Analytics" Number
+
+
+v3.5.0	2018-11-13
+Changed users ID's
+Changed "Analytics" Number
+
+
+v3.4.0	2018-11-11
+Added new website "ALKAWTHAR"
+
+
+v3.3.0	2018-11-05
+Changed users ID's
+Changed "Analytics" Number
+
+
+v3.2.0	2018-10-31
+Added new website "EGYBEST"
+
+
+v3.1.0	2018-10-25
+Added and used "script.module.futures" to allow for parallel web requests
+
+
+v3.0.0
+Back to previous (v2.7.0) "Analytics" Number
+
+
+v2.9.0
+Skipped
+
+
+v2.8.0
+Changed users ID's
+Changed "Analytics" Number
+
+
+v2.7.0
+Changed users ID's
+Changed "Analytics" Number
+
+
+v2.6.0
+Added and used "script.module.urlresolver" to allow for more resolvers
+
+
+v2.5.0
+Modified addon icon
+
+
+v2.4.0
+Added new website "SHAHID4U"
+
+
+v2.3.0
+Added "Tv Channels"
+
+
+v2.2.0
+Added new sections to "Alfatimi", 'Akoam', "HalaCima", & "4Helal"
+Added new resolvers
+Added DMCA message
+
+
+v2.1.0
+Added Search to "ShoofMax"
+Changed "Analytics" Number
+
+
+v2.0.0
+Added new website "4Helal"
+
+
+v1.9.0
+Added new website "HalaCima"
+
+
+v1.8.0
+Got new "Analytics" Number
+
+
+v1.7.0
+Changed "Analytics" Number
+
+
+v1.6.0
+Added "Analytics"
+
+
+v1.5.0
+Added new website "Akoam"
+
+
+v1.4.0
+Added Email function
+
+
+v1.3.0
+Added new website "Al-Fatimi" 
+
+
+v1.2.0
+Added Recent Series to "iFilm"
+
+
+v1.1.0
+Added Search to "iFilm"
+Updated "Al-Maaref"
+
+
+v1.0.0
+Initial Release
+

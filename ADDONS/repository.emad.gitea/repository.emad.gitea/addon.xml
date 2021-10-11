@@ -1,0 +1,24 @@
+<addon id="repository.emad.gitea" name="EMAD Gitea Repository" version="6.5.1" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD Gitea Repository">
+		<dir minversion="19.0.0">
+			<info compressed="false">https://gitea.com/emadmahdi/KODI/raw/branch/master/ADDONS19/addons19.xml</info>
+			<checksum>https://gitea.com/emadmahdi/KODI/raw/branch/master/ADDONS19/addons19.xml.md5</checksum>
+			<datadir zip="true">https://gitea.com/emadmahdi/KODI/raw/branch/master/ADDONS19/</datadir>
+		</dir>
+		<dir minversion="18.0.0">
+			<info compressed="false">https://gitea.com/emadmahdi/KODI/raw/branch/master/ADDONS18/addons18.xml</info>
+			<checksum>https://gitea.com/emadmahdi/KODI/raw/branch/master/ADDONS18/addons18.xml.md5</checksum>
+			<datadir zip="true">https://gitea.com/emadmahdi/KODI/raw/branch/master/ADDONS18/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://gitea.com/emadmahdi/KODI/raw/branch/master/ADDONS/addons.xml</info>
+			<checksum>https://gitea.com/emadmahdi/KODI/raw/branch/master/ADDONS/addons.xml.md5</checksum>
+			<datadir zip="true">https://gitea.com/emadmahdi/KODI/raw/branch/master/ADDONS/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addons from EMAD</summary>
+		<description lang="en">Download and install addons from EMAD</description>
+		<platform>all</platform>
+	</extension>
+</addon>

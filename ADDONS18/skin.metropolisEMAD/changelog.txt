@@ -1,0 +1,68 @@
+
+v2021.10.06
+Modified skin icon
+Modified notification dialog
+
+
+v18.4.0.2	2020-12-07
+Changed resource.images to optional="true"
+
+
+v18.4.0.1	2020-12-06
+Added kodi Arabic language interface
+Modified videos OSD
+Fixed sending analytics events
+Fixed showDate settings
+Renamed ArabicVideos menu items
+Minor fixes and improvements
+
+
+v18.4.0.0	2020-11-02
+Added Arabic menu
+Added ANALYTICS for first skin use
+Modified shortcuts of main menu
+Increased height and font for mobile users
+Fixed the screen of "install an addon using a zip file"
+Matched the skin with the original skin v3.70.beta
+Minor size changes
+Minor fixes & improvements
+
+
+v18.3.1.1	2020-08-13
+Modified TextViewer Dialog
+Fixed list right pageup/pagedown
+Disabled viewtype collide
+Fixed OSD and seekbar fading
+Fixed keyboard entry viewer
+
+
+v18.3.1.0	2020-07-15
+Imported changes from Metropolis v3.4.30 root folder downloaded at 10th July 2020
+
+
+v18.3.0.0	2020-06-27
+Renamed for separation to multiple kodi versions
+
+
+v2.3.0	2020-06-22
+Fixed Arabic Keyboard
+
+
+v2.2.1
+Fixed repository
+
+
+v2.2.0
+Minor updates and fixes
+
+
+v2.1.0
+updated to the latest metropolis skin v3.4.25
+
+
+v2.0.0
+Renamed
+
+
+v1.0.0
+Initial Release

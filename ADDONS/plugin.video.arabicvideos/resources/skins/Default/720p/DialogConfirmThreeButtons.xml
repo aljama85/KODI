@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">9000</defaultcontrol>
+	<animation type="WindowOpen" reversible="false">
+		<effect type="zoom" start="80" end="100" center="auto" easing="out" tween="back" time="300" />
+		<effect type="fade" start="0" end="100" time="300" />
+	</animation>
+	<animation type="WindowClose" reversible="false">
+		<effect type="zoom" start="100" end="80" center="auto" easing="in" tween="back" time="300" />
+		<effect type="fade" start="100" end="0" time="300" />
+	</animation>
+	<controls>
+		<control type="group">
+			<posx>175</posx>
+			<posy>150</posy>
+			<control type="image">
+				<description>Background Panel</description>
+				<width>925</width>
+				<height>475</height>
+				<texture>dialogs/dialogbg_icon2.png</texture>
+				<colordiffuse>FF6eb3ee</colordiffuse>
+			</control>
+			<control type="label" id="1">
+				<description>Heading</description>
+				<posx>60</posx>
+				<posy>30</posy>
+				<width>820</width>
+				<height>52</height>
+				<font>mono30</font>
+				<textcolor>eef8cd22</textcolor>
+				<scroll>true</scroll>
+				<align>center</align>
+				<aligny>center</aligny>
+			</control>
+			<control type="textbox" id="9">
+				<posx>60</posx>
+				<posy>80</posy>
+				<width>810</width>
+				<height>250</height>
+				<font>mono30</font>
+				<textcolor>eeFFFFFF</textcolor>
+				<align>center</align>
+			</control>
+			<control type="progress" id="20">
+				<description>Progress Bar</description>
+				<posx>60</posx>
+				<posy>330</posy>
+				<width>815</width>
+				<height>30</height>
+				<reveal>true</reveal>
+				<texturebg>osd/osd_progress_back.png</texturebg>
+				<lefttexture>osd/osd_progress_left.png</lefttexture>
+				<midtexture>osd/osd_progress_mid.png</midtexture>
+				<righttexture>osd/osd_progress_right.png</righttexture>
+				<colordiffuse>DialogProgressBar</colordiffuse>
+			</control>
+			<control type="grouplist" id="9000">
+				<orientation>horizontal</orientation>
+				<posx>50</posx>
+				<posy>380</posy>
+				<width>830</width>
+				<align>center</align>
+				<control type="button" id="10">
+					<description>Cancel</description>
+					<left>0</left>
+					<top>0</top>
+					<height>52</height>
+					<width>270</width>
+					<align>center</align>
+					<aligny>center</aligny>
+					<font>mono30</font>
+					<textcolor>eeFFFFFF</textcolor>
+					<disabledcolor>FFff5858</disabledcolor>
+					<focusedcolor>eef8cd22</focusedcolor>
+					<selectedcolor>eef8cd22</selectedcolor>
+					<texturefocus>buttonfo.png</texturefocus>
+					<pulseonselect>false</pulseonselect>
+					<onleft>12</onleft>
+					<onright>11</onright>
+					<onup>12</onup>
+					<ondown>11</ondown>
+				</control>
+				<control type="button" id="11">
+					<description>Ok</description>
+					<left>0</left>
+					<top>0</top>
+					<height>52</height>
+					<width>270</width>
+					<align>center</align>
+					<aligny>center</aligny>
+					<font>mono30</font>
+					<textcolor>eeFFFFFF</textcolor>
+					<disabledcolor>FFff5858</disabledcolor>
+					<focusedcolor>eef8cd22</focusedcolor>
+					<selectedcolor>eef8cd22</selectedcolor>
+					<texturefocus>buttonfo.png</texturefocus>
+					<pulseonselect>false</pulseonselect>
+					<onleft>10</onleft>
+					<onright>12</onright>
+					<onup>10</onup>
+					<ondown>12</ondown>
+				</control>
+				<control type="button" id="12">
+					<description>custom</description>
+					<left>0</left>
+					<top>0</top>
+					<height>52</height>
+					<width>270</width>
+					<align>center</align>
+					<aligny>center</aligny>
+					<font>mono30</font>
+					<textcolor>eeFFFFFF</textcolor>
+					<disabledcolor>FFff5858</disabledcolor>
+					<focusedcolor>eef8cd22</focusedcolor>
+					<selectedcolor>eef8cd22</selectedcolor>
+					<texturefocus>buttonfo.png</texturefocus>
+					<pulseonselect>false</pulseonselect>
+					<onleft>11</onleft>
+					<onright>10</onright>
+					<onup>11</onup>
+					<ondown>10</ondown>
+				</control>
+			</control>
+		</control>
+	</controls>
+</window>

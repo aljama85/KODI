@@ -1,0 +1,24 @@
+<addon id="repository.emad.github" name="EMAD GitHub Repository" version="6.5.1" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD GitHub Repository">
+		<dir minversion="19.0.0">
+			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/KODI/master/ADDONS19/addons19.xml</info>
+			<checksum>https://raw.githubusercontent.com/emadmahdi/KODI/master/ADDONS19/addons19.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/emadmahdi/KODI/master/ADDONS19/</datadir>
+		</dir>
+		<dir minversion="18.0.0">
+			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/KODI/master/ADDONS18/addons18.xml</info>
+			<checksum>https://raw.githubusercontent.com/emadmahdi/KODI/master/ADDONS18/addons18.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/emadmahdi/KODI/master/ADDONS18/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/emadmahdi/KODI/master/ADDONS/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/emadmahdi/KODI/master/ADDONS/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/emadmahdi/KODI/master/ADDONS/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addons from EMAD</summary>
+		<description lang="en">Download and install addons from EMAD</description>
+		<platform>all</platform>
+	</extension>
+</addon>

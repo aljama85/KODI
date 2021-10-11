@@ -1,0 +1,8 @@
+
+v3.0.0	2020-06-27
+Renamed for separtion to multiple kodi versions
+
+
+v2.0.0  Renamed
+
+v1.0.0  Initial Release

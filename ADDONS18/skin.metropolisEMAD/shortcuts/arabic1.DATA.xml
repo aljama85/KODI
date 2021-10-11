@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<label>برنامج الفيديو العربي</label>
+		<label2>32021</label2>
+		<icon>home_icons/arabic.png</icon>
+		<action>ActivateWindow(Videos,plugin://plugin.video.arabicvideos,return)</action>
+	</shortcut>
+	<shortcut>
+		<label>قائمة مفضلة كودي</label>
+		<label2>32021</label2>
+		<icon>home_icons/favourites.png</icon>
+		<action>ActivateWindow(favourites)</action>
+	</shortcut>
+	<shortcut>
+		<label>خروج من كودي</label>
+		<label2>32054</label2>
+		<icon>DefaultShortcut.png</icon>
+		<action>Quit()</action>
+	</shortcut>
+</shortcuts>
+
+
+
+
+
+
