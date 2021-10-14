@@ -3,7 +3,7 @@
 
 
 
-<addon id="skin.metropolisEMAD" version="2021.10.06" name="Metropolis EMAD" provider-name="jingai, Stoli, Amra, MacGyver, EMAD">
+<addon id="skin.metropolisEMAD" version="2021.10.14" name="Metropolis EMAD" provider-name="jingai, Stoli, Amra, MacGyver, EMAD">
 	<requires>
 		<!-- <import addon="xbmc.gui" version="5.14.0" /> -->
 		<import addon="script.skin.helper.widgets" optional="false" />
