@@ -1,4 +1,18 @@
 ﻿
+v 2021.10.14
+Emptied all repos except repository.emad
+
+
+v 2021.10.10
+Removed all repos except repsoitory.emad
+Modifed repsoitory.emad to use PythonAnywhere
+
+
+v6.6.0	2021-10-09
+Added PythonAnywhere repository
+Modified icon for year 2022
+
+
 v6.5.1	2021-06-15
 Reinstalled gitee & others to fix kodi restart problem
 

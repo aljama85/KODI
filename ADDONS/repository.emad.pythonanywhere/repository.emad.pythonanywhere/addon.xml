@@ -1,5 +1,5 @@
-<addon id="repository.emad.gitea" name="EMAD Gitea Repository" version="2021.10.14" provider-name="EMAD MAHDI">
-	<extension point="xbmc.addon.repository" name="EMAD Gitea Repository">
+<addon id="repository.emad.pythonanywhere" name="EMAD PythonAnywhere Repository" version="2021.10.14" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.pythonanywhere" name="EMAD PythonAnywhere Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install addons from EMAD</summary>
