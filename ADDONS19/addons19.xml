@@ -329,7 +329,7 @@ v1.0.25 (marcelveldt)
 
 
 
-<AAAaddon id="script.module.addon.signals"
+<addon id="script.module.addon.signals"
     name="Addon Signals"
     version="0.0.6+matrix.1"
     provider-name="Rick Phillips (ruuk)">
@@ -347,7 +347,7 @@ v1.0.25 (marcelveldt)
             <icon>icon.png</icon>
         </assets>
     </extension>
-</AAAaddon>
+</addon>
 
 
 
@@ -484,6 +484,32 @@ v1.0.25 (marcelveldt)
             <icon>icon.png</icon>
         </assets>
     </extension>
+</addon>
+
+
+
+<addon id="script.module.simplejson"
+       name="simplejson"
+       version="3.17.0+matrix.2"
+       provider-name="Bob Ippolito">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary lang="en_GB">Simple, fast, extensible JSON encoder/decoder for Python</summary>
+    <description lang="en_GB">Simple, fast, extensible JSON encoder/decoder for Python</description>
+    <disclaimer lang="en_GB">Code taken from https://pypi.org/project/simplejson/</disclaimer>
+    <license>MIT License, Academic Free License v. 2.1</license>
+    <website>https://pypi.org/project/simplejson/</website>
+    <source>https://github.com/simplejson/simplejson</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon>
 
 
