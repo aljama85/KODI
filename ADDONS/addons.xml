@@ -2,7 +2,7 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2021.10.28" provider-name="EMAD MAHDI">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2021.10.31" provider-name="EMAD MAHDI">
 	<requires>
 		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
 		<import addon="script.module.six" optional="false"/>
@@ -64,8 +64,8 @@
 
 
 
-<addon id="repository.emad.codeberg" name="EMAD Codeberg Repository" version="2021.10.14" provider-name="EMAD MAHDI">
-	<extension point="xbmc.addon.repository" name="EMAD Codeberg Repository">
+<addon id="repository.emad.gitee" name="EMAD Gitee Repository" version="2021.10.14" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD Gitee Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install addons from EMAD</summary>
@@ -76,8 +76,8 @@
 
 
 
-<addon id="repository.emad.gitee" name="EMAD Gitee Repository" version="2021.10.14" provider-name="EMAD MAHDI">
-	<extension point="xbmc.addon.repository" name="EMAD Gitee Repository">
+<addon id="repository.emad.codeberg" name="EMAD Codeberg Repository" version="2021.10.14" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.repository" name="EMAD Codeberg Repository">
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install addons from EMAD</summary>
@@ -94,6 +94,18 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install addons from other developers</summary>
 		<description lang="en">Download and install addons from other developers</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<addon id="repository.emad.pythonanywhere" name="EMAD PythonAnywhere Repository" version="2021.10.14" provider-name="EMAD MAHDI">
+	<extension point="xbmc.addon.pythonanywhere" name="EMAD PythonAnywhere Repository">
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addons from EMAD</summary>
+		<description lang="en">Download and install addons from EMAD</description>
 		<platform>all</platform>
 	</extension>
 </addon>
