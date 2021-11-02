@@ -1,9 +1,0 @@
-<addon id="repository.emad.pythonanywhere" name="EMAD PythonAnywhere Repository" version="2021.10.14" provider-name="EMAD MAHDI">
-	<extension point="xbmc.addon.pythonanywhere" name="EMAD PythonAnywhere Repository">
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install addons from EMAD</summary>
-		<description lang="en">Download and install addons from EMAD</description>
-		<platform>all</platform>
-	</extension>
-</addon>
