@@ -2,7 +2,7 @@
 
 
 
-<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2021.11.02" provider-name="EMAD MAHDI">
+<addon id="plugin.video.arabicvideos" name="EMAD Arabic Videos" version="2021.11.05" provider-name="EMAD MAHDI">
 	<requires>
 		<!-- <import addon="xbmc.python" version="3.0.0" /> -->
 		<import addon="script.module.six" optional="false"/>
@@ -640,7 +640,7 @@
 
 <addon id="script.module.kodi-six"
        name="Kodi Six"
-       version="0.1.3"
+       version="0.1.3a"
        provider-name="Roman V.M.">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
