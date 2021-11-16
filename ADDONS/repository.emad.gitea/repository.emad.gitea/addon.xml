@@ -1,9 +1,0 @@
-<addon id="repository.emad.gitea" name="EMAD Gitea Repository" version="2021.10.14" provider-name="EMAD MAHDI">
-	<extension point="xbmc.addon.repository" name="EMAD Gitea Repository">
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install addons from EMAD</summary>
-		<description lang="en">Download and install addons from EMAD</description>
-		<platform>all</platform>
-	</extension>
-</addon>
